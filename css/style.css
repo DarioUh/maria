@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Walter+Turncoat&display=swap");
+body {
+  margin: 0px;
+  font-family: "Dosis", sans-serif;
+}
+
+.card {
+  font-family: "Dosis", sans-serif;
+  background-color: rgba(216, 216, 216, 0.13);
+  border: 0px;
+  backdrop-filter: blur(0.5rem);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+}
+.card .card-header {
+  background-color: rgba(218, 6, 6, 0.541);
+}
+
+.titulos {
+  color: rgb(61, 32, 32);
+  padding-top: 2rem;
+  font-family: "Walter Turncoat", cursive;
+}
+
+.subtitulos {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.navbar-brand {
+  font-family: "Walter Turncoat", cursive;
+}
+
+.link-style {
+  color: #ffffff;
+  text-decoration: none;
+}
+.link-style:hover {
+  text-decoration: none;
+  color: rgb(190, 190, 190);
+}
+
+.redes-sociales img {
+  transition: transform 0.3s ease-out;
+}
+.redes-sociales:hover img {
+  transform: scale(1.5);
+}
+
+.bg-principal {
+  background: linear-gradient(to top, rgba(80, 79, 79, 0), rgba(78, 78, 78, 0.4941176471), rgba(0, 0, 0, 0.7725490196), #3b251b);
+}
+
+.li .a {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.fondo-img {
+  background-image: url(../img/fondo.jpg);
+}
+
+.pared-roja {
+  background-image: url(../img/pared-roja.jpg);
+}
+
+.pared-hueso {
+  background-image: url(../img/pared-hueso.jpg);
+}
+
+.pared-cemento {
+  background-image: url(../img/pared-cemento.jpg);
+}
+
+/*# sourceMappingURL=style.css.map */
