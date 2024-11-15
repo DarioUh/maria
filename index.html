@@ -15,6 +15,13 @@
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css">
     <style>
+        body {
+        overflow-x: hidden;
+    }
+        .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
         .play-button {
       position: fixed;
       bottom: 20px;
@@ -79,50 +86,50 @@ if (audio.paused) {
   <div class="container-fluid m-0 p-0">
         <!-- DENTRO DEL CONTAINER PUEDO TENER ROW ILIMITADAS (1 o +1) -->
         <div class="container-fluid p-0">
-            <div class="row pared-cemento align-items-center m-0 p-3">
-                <div class="col-lg-12 col-12 text-center m-0 p-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="row pared-cemento align-items-center">
+                <div class="col-lg-12 col-12 text-center m-0 p-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <img src="img/imagen1.jpg" class="img-fluid shadow-lg" alt="...">
                 </div>
             </div>
             
-            <div class="row pared-cemento align-items-center p-3 m-0">
-                <div class="col-lg-12 col-12 text-center p-0 m-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="row pared-cemento align-items-center">
+                <div class="col-lg-12 col-12 text-center p-4 m-0" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
                     <img src="img/frase.jpg" class="img-fluid shadow-lg" alt="...">
                 </div>
             </div>
             
-            <div class="row pared-hueso d-flex align-items-center m-0 p-5">
-                <div class="col-lg-8 offset-lg-2 col-12 d-flex justify-content-center p-0" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="row pared-hueso d-flex align-items-center">
+                <div class="col-lg-8 offset-lg-2 col-12 d-flex justify-content-center p-5" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
                     <img src="img/lugar.png" class="img-fluid transparent-img" alt="...">
                 </div>
-                <div class="col-12 text-center mt-4">
+                <div class="col-12 text-center mb-5">
                     <!-- Botón con enlace a Google Maps -->
-                    <a href="https://maps.app.goo.gl/4gCH1n5Mdi9FycB88" target="_blank" class="btn btn-custom px-4">Ver ubicación</a>
+                    <a href="https://maps.app.goo.gl/4gCH1n5Mdi9FycB88" target="_blank" class="btn btn-light px-4">Ver ubicación</a>
                 </div>
             </div>
             
-            <div class="row pared-cemento d-flex align-items-center m-0 p-5">
-                <div class="col-lg-8 offset-lg-2 col-12 d-flex justify-content-center p-0" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="row pared-cemento d-flex align-items-center">
+                <div class="col-lg-8 offset-lg-2 col-12 d-flex justify-content-center p-5" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">
                     <img src="img/dress.png" class="img-fluid transparent-img" alt="...">
                 </div>
             </div>
-            <div class="row pared-hueso d-flex align-items-center m-0 p-5">
-                <div class="col-lg-8 offset-lg-2 col-12 d-flex tex justify-content-center p-0" data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="row pared-hueso d-flex align-items-center">
+                <div class="col-lg-8 offset-lg-2 col-12 d-flex tex justify-content-center p-5 pb-2" data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="1500">
                     <img src="img/regalo.png" class="img-fluid transparent-img" alt="...">
                 </div>
-            </div>
-            <div class="d-flex justify-content-center pt-2">
-                <div class="dropdown">
-                    <button class="btn btn-custom dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                        Datos para transferencia
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <li class="dropdown-item">Banco: Mercado Pago</li>
-                        <li class="dropdown-item">CVU: 0000003100063363847134</li>
-                        <li class="dropdown-item">Alias: maru.2928</li>
-                        <li class="dropdown-item">CUIT/CUIL: 27489755373</li>
-                        <li class="dropdown-item">Titular: Maria Jesus Cabrera Rey</li>
-                    </ul>
+                <div class="d-flex justify-content-center pt-2 pb-4">
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Datos para transferencia
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li class="dropdown-item">Banco: Mercado Pago</li>
+                            <li class="dropdown-item">CVU: 0000003100063363847134</li>
+                            <li class="dropdown-item">Alias: maru.2928</li>
+                            <li class="dropdown-item">CUIT/CUIL: 27489755373</li>
+                            <li class="dropdown-item">Titular: Maria Jesus Cabrera Rey</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="container my-5">
@@ -146,7 +153,7 @@ if (audio.paused) {
                 </div>
             </div>
         </div> 
-        <footer class="row pared-hueso m-0 pt-2 pb-2 align-items-center">
+        <footer class="row pared-hueso align-items-center">
           <div class="col-lg-12 col-12 d-flex justify-content-center">
             <a href="https://wa.me/5493885629120" target="_blank" class="link-style">DISEÑO Y DESARROLLO WEB</a>
           </div>
