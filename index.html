@@ -57,12 +57,14 @@
     </style>
     
 </head>
+<!--
 <audio id="background-audio" loop>
     <source src="music/musica.mp3" type="audio/mpeg">
     Tu navegador no soporta la reproducción de audio.
-  </audio>
+  </audio> 
+-->
   <!-- Botón de reproducción en forma de imagen -->
-<img src="img/play.png" id="playButton" class="play-button" onclick="toggleAudio()" alt="Play">
+<!--<img src="img/play.png" id="playButton" class="play-button" onclick="toggleAudio()" alt="Play">
 
 <script>
 // Obtener el elemento de audio y el botón de imagen
@@ -80,7 +82,11 @@ if (audio.paused) {
 }
 }
 </script>
-
+-->
+<audio autoplay loop>
+    <source src="music/musica.mp3" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+  </audio>
 <body>
     <!-- LO PRIMERO QUE ABRIMOS ES UN CONTAINER -->
   <div class="container-fluid m-0 p-0">
@@ -137,9 +143,6 @@ if (audio.paused) {
                     <div class="col-lg-8 col-md-10 col-sm-12 text-center" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="3000">
                         <p class="lead mb-4">
                             Este día será uno de los más especiales y significativos de mi vida, y nada me haría más feliz que compartirlo con Uds. Espero poder celebrar juntos esta noche de alegría y recuerdos inolvidables.
-                        </p>
-                        <p class="lead mb-4">
-                            Si tenés la oportunidad de acompañarme en este momento tan importante, te agradecería que confirmes tu presencia haciendo clic en el botón de abajo. ¡Tu compañía hará que esta celebración sea aún más especial!
                         </p>
                         <p class="lead mb-4">
                             ¡Te espero con mucho cariño!
